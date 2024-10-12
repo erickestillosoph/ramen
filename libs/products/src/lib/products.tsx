@@ -1,9 +1,3 @@
-// import styled from 'tailwind';
-
-// const StyledProducts = styled.div`
-//   color: pink;
-// `;
-
 import styled from 'tailwind-styled-components';
 
 const StyledProducts = styled.div`
