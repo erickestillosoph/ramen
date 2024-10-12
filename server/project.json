@@ -8,9 +8,7 @@
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
-      "dependsOn": [
-        "build"
-      ],
+      "dependsOn": ["build"],
       "options": {
         "buildTarget": "server:build",
         "runBuildTargetDependencies": false
@@ -23,6 +21,10 @@
           "buildTarget": "server:build:production"
         }
       }
+    },
+    "deploy": {
+      "dependsOn": [],
+      "command": "netlify deploy --dir=dist/server"
     }
   }
 }
