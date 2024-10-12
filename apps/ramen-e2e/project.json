@@ -1,0 +1,9 @@
+{
+  "name": "ramen-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/ramen-e2e/src",
+  "implicitDependencies": ["ramen"],
+  "// targets": "to see all targets run: nx show project ramen-e2e --web",
+  "targets": {}
+}
